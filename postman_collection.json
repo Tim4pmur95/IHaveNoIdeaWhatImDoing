@@ -1,0 +1,46 @@
+{
+  "info": {
+    "name": "Lab Webserver API",
+    "_postman_id": "9a9e05b1-7c14-47e1-9ecf-8be2ab4e8b23",
+    "description": "Коллекция запросов для проверки лабораторного Flask webserver",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Ping",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/ping",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": "5000",
+          "path": [
+            "ping"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Home page",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/",
+          "protocol": "http",
+          "host": [
+            "127.0.0.1"
+          ],
+          "port": "5000",
+          "path": [
+            ""
+          ]
+        }
+      }
+    }
+  ]
+}
